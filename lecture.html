@@ -1,16 +1,22 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Academic portfolio and educational library of Ronald B. George, MD FRCPC: obstetric anesthesiology research, publications, lectures and leadership."><title>Lecture | Ronald B. George</title><link rel="stylesheet" href="assets/style.css"></head><body><header class="site-header"><div class="container header-inner"><a class="brand" href="index.html"><strong>Ronald B. George</strong><small>MD FRCPC · Academic Portfolio</small></a><button class="menu-toggle" onclick="document.querySelector('.nav').classList.toggle('open')" aria-label="Toggle navigation">Menu ☰</button><nav class="nav" aria-label="Main navigation"><a href="index.html" data-nav="home">Home</a><a href="research.html" data-nav="research">Research</a><a href="publications.html" data-nav="publications">Publications</a><a href="lectures.html" data-nav="lectures">Lectures</a><a href="leadership.html" data-nav="leadership">Leadership</a><a href="about.html" data-nav="about">About</a></nav></div></header><section class="lecture-hero"><div class="container"><div class="eyebrow" id="detail-meta"></div><h1 id="detail-title">Lecture</h1><p id="detail-description"></p></div></section><section class="section"><div class="container lecture-info"><main><div class="eyebrow">Overview</div><h2 style="font:normal 29px Georgia,serif">About this lecture</h2><p id="detail-overview"></p><h2 style="font:normal 26px Georgia,serif">Key themes</h2><ul id="detail-points"></ul><div class="notice" id="detail-notice">When a lecture PDF is available, it can be viewed on this page.</div><section id="lecture-viewer-section" aria-label="Lecture slides" style="display:none;margin-top:24px"><div class="eyebrow">Slide presentation</div><h2 style="font:normal 29px Georgia,serif">View the lecture</h2><div style="border:1px solid #d5dfe8;border-radius:12px;overflow:hidden;background:#f6f8fa"><iframe id="lecture-viewer" title="Lecture PDF viewer" style="display:block;width:100%;height:clamp(480px,75vh,900px);border:0" loading="lazy"></iframe></div><p class="small">The PDF viewer supports scrolling, zooming and browser PDF controls. You may also open the PDF in a separate tab.</p></section><a class="text-link" href="lectures.html">← Back to all lectures</a></main><aside class="aside-panel"><div class="eyebrow">Lecture details</div><h3 id="detail-conf"></h3><p id="detail-place"></p><p id="detail-status"></p><a id="detail-pdf" class="btn" href="#" style="width:100%;display:none" target="_blank" rel="noopener">View lecture PDF ↗</a><p class="small">PDF downloads are provided for educational use. Please cite the original source and verify current clinical guidance.</p></aside></div></section><footer class="footer"><div class="container footer-inner"><div><div style="font-family:Georgia,serif;font-size:21px">Ronald B. George, MD FRCPC</div><small>Professor of Anesthesiology · University of Toronto<br>Obstetric Anesthesiology · Mount Sinai Hospital, Toronto</small></div><div><a href="publications.html">Publications</a> · <a href="lectures.html">Lectures</a> · <a href="about.html">Contact</a><br><small>Independent academic website. Opinions and educational materials are not institutional clinical guidelines.</small></div></div></footer><script>document.querySelector('[data-nav="lecture"]')?.classList.add('active');</script><script src="data/lectures.js"></script><script src="assets/site.js"></script><script>initLectureDetail();(function(){
- const id=new URLSearchParams(location.search).get('id');
- const l=(window.LECTURES||[]).find(x=>x.id===id);
- const localPdf=l && l.pdfUrl && !/^https?:\/\//i.test(l.pdfUrl);
- const folder=document.getElementById('detail-folder');if(folder)folder.remove();
- const notice=document.getElementById('detail-notice');
- if(localPdf){
-  const section=document.getElementById('lecture-viewer-section');
-  const viewer=document.getElementById('lecture-viewer');
-  viewer.src=l.pdfUrl+'#toolbar=1&navpanes=0&view=FitH';
-  section.style.display='block';
-  const download=document.getElementById('detail-pdf');
-  if(download){ download.textContent='Open lecture PDF ↗'; download.href=l.pdfUrl; download.style.display='inline-flex'; }
-  if(notice)notice.textContent='Read the full lecture slides below, or open the PDF in a separate tab.';
- }else if(notice && !l?.pdfUrl){notice.textContent='The lecture PDF is not yet available for public viewing.';}
-})();</script></body></html>
+Ronald B. GeorgeMD FRCPC · Academic PortfolioMenu ☰
+HomeResearchPublicationsLecturesLeadershipAbout
+
+Lecture
+
+Overview
+About this lecture
+
+Key themes
+	•	
+When a lecture PDF is available, it can be viewed on this page.
+← Back to all lectures
+Lecture details
+
+
+
+PDF downloads are provided for educational use. Please cite the original source and verify current clinical guidance.
+Ronald B. George, MD FRCPC
+Professor of Anesthesiology · University of Toronto
+Obstetric Anesthesiology · Mount Sinai Hospital, Toronto
+Publications · Lectures · Contact
+Independent academic website. Opinions and educational materials are not institutional clinical guidelines.
