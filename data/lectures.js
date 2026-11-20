@@ -35,7 +35,8 @@ window.LECTURES = [
     title: 'Obstetric anaesthesia workforce and equitable access',
     citation: 'George RB, Zakowski MI. Int J Obstet Anesth. 2025;63:104699.',
     context: 'Systems and staffing considerations for access to obstetric anaesthesia care.',
-    url: 'https://pubmed.ncbi.nlm.nih.gov/40516437/'
+    url: 'https://pubmed.ncbi.nlm.nih.gov/40516437/',
+    pdfUrl: 'lectures/references/Obstetric anaesthesia workforce and equitable access.pdf'
   }
 ],pdfUrl:'lectures/oaa-2026-personalized-labour-analgesia.pdf',image:'analgesia'},
  {id:'ist-2026',year:2026,conference:'ISTH Annual Meeting',place:'Paris, France',title:'Beyond Blood Loss: Rethinking PPH Severity Classification',topic:'Obstetric Hemorrhage',description:'Reconsidering the classification of postpartum hemorrhage using clinical context and physiologic response.',pdfUrl:'',image:'hemorrhage'},
