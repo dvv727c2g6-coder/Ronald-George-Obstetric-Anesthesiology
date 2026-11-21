@@ -7,6 +7,7 @@ const PUBLICATION_PDF_URLS = {
   '10.1213/ANE.0000000000008018': 'publications/pdfs/elevate-cesarean-choices-2026.pdf',
   '10.1503/cmaj.240061': 'publications/pdfs/maccormick-lived-experiences-2024.pdf',
   '10.1016/j.ajog.2025.04.060': 'publications/pdfs/ke-postpartum-complications-2025.pdf',
+  '10.1111/anae.16465': 'publications/pdfs/george-landau-2025.pdf',
 };
 function pubCard(p){
   const articleLink = p.doi ? `<a class="pub-link" href="https://doi.org/${encodeURIComponent(p.doi)}" target="_blank" rel="noopener noreferrer">View publication ↗</a>` : '';
